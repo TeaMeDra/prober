@@ -34,8 +34,8 @@ def build_graph(j):
     if c["attributes"]["_type"] == "resistor":
       nodes[id]["type"] = "passive"
       nodes[id]["type-passive"] = "resistor"
-      if "_resistance" in j["components"][ci["library_id"]]["attributes"]:
-        nodes[id]["resistance"] = j["components"][ci["library_id"]]["attributes"]["_resistance"]
+      if "_resistance" in c["attributes"]:
+        nodes[id]["resistance"] = c["attributes"]["_resistance"]
 
     # TODO LRC
 
