@@ -2,6 +2,18 @@ import sys
 import json
 
 
+# nodes : dictionary indexed by node uid's (strings)
+# each node:
+#   "id" : uid
+#   "name" : user-friendly id (if available)
+#   "type" : one of "component", "net", "passive"
+#   "type-passive" : only "resistor" for now...
+#   "resistance" : resistance value for resistors (string)
+#   "pins" : dictionary of node's pins indexed by pin numbers (strings)
+#     "node" : uid of the node this pin connects to
+#     "pin" : pin number of the pin on the node that this pin connects to
+
+
 # j : output of json.load() on an upverter openjson file
 def build_graph(j):
   nodes = {}
@@ -16,7 +28,10 @@ def build_graph(j):
     nodes[id]["pins"] = {}
 
     # resistor
-    if j["components"][ci["library_id"]]["attributes"]["_type"] == "resistor":
+    # TODO
+    #   needs better handling of diff. kinds of resistors...
+    c = j["components"][ci["library_id"]]
+    if c["attributes"]["_type"] == "resistor":
       nodes[id]["type"] = "passive"
       nodes[id]["type-passive"] = "resistor"
       if "_resistance" in j["components"][ci["library_id"]]["attributes"]:
@@ -24,6 +39,8 @@ def build_graph(j):
 
     # TODO LRC
 
+    # it's not a passive component we handle,
+    # so just label it as a generic component
     if "type" not in nodes[id]:
       nodes[id]["type"] = "component"
 
@@ -75,6 +92,8 @@ def print_graph(nodes):
       print "      src pin:", i
       print "      dst pin:", p["pin"]
       print "      on node:", p["node"]
+      if "name" in nodes[p["node"]]:
+        print "        aka:", nodes[p["node"]]["name"]
 
   print ""
 
