@@ -46,6 +46,8 @@ def build_graph(j):
 
 
   # build up nets
+  # nets need to be connected to components
+  # (no nets that only connect to other nets...)
   for n in j["nets"]:
     # assume net_id's and component id's don't overlap
     id = n["net_id"]
@@ -86,6 +88,11 @@ def print_graph(nodes):
 
     if node["type"] == "passive" and node["type-passive"] == "resistor" and "resistance" in node:
       print "    resistance:", node["resistance"]
+
+    if node["type"] == "spice":
+      print "    begin spice circuit:"
+      print node["spice-circuit"]
+      print "    end spice circuit"
 
     print "    pins:"
     for i, p in node["pins"].items():
