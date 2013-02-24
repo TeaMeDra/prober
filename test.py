@@ -12,8 +12,13 @@ def main():
   fp.close()
 
   nodes = build_graph(j)
-  print_graph(nodes)
-  collapse_graph(nodes)
+  # print_graph(nodes)
+
+  running = True
+  while running:
+    if not collapse_graph(nodes):
+      running = False
+
   print_graph(nodes)
 
 

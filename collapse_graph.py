@@ -1,5 +1,7 @@
 def collapse_graph(nodes):
+  print "collapse_graph()..."
   for id in nodes:
+    print "  on node %s" % id
     node = nodes[id]
     if node["type"] == "passive" and node["type-passive"] == "resistor":
       if nodes[node["pins"]["1"]["node"]]["type"] == "net":
@@ -17,23 +19,54 @@ def collapse_graph(nodes):
       N_id = R1["pins"][R1_p2]["node"]
       N_p1 = R1["pins"][R1_p2]["pin"]
 
-      for i, p in nodes[N_id]["pins"].items():
-        if p["node"] != id and nodes[p["node"]]["type"] == "passive" and nodes[p["node"]]["type-passive"] == "resistor":
-          R2_id = p["node"]
-          R2 = nodes[p["node"]]
-          N_p2 = i
-          R2_p1 = p["pin"]
-          if R2_p1 == "1":
-            R2_p2 = "2"
-          elif R2_p1 == "2":
-            R2_p2 = "1"
-          else:
-            # this shouldn't happen...?
-            return
+      if collapse_graph_net(nodes, R1_id, R1_p1, R1_p2, N_id, N_p1):
+        return True
 
-          resistor_with_resistor(nodes, R1_id, R1_p1, R1_p2, N_id, N_p1, N_p2, R2_id, R2_p1, R2_p2)
-          print "combined a resistor?"
-          return
+      if R1_p1 == "2" and nodes[node["pins"]["2"]["node"]]["type"] == "net":
+        # try other direction
+        R1_p1 = "1"
+        R1_p2 = "2"
+        N_id = R1["pins"][R1_p2]["node"]
+        N_p1 = R1["pins"][R1_p2]["pin"]
+        if collapse_graph_net(nodes, R1_id, R1_p1, R1_p2, N_id, N_p1):
+          return True
+
+  return False
+
+
+def collapse_graph_net(nodes, R1_id, R1_p1, R1_p2, N_id, N_p1):
+  print "  on net %s" % N_id
+  for i, p in nodes[N_id]["pins"].items():
+    print "  scanning.. node %s, type %s" % (p["node"], nodes[p["node"]]["type"])
+    if p["node"] != R1_id and nodes[p["node"]]["type"] == "passive" and nodes[p["node"]]["type-passive"] == "resistor":
+      R2_id = p["node"]
+      R2 = nodes[p["node"]]
+      N_p2 = i
+      R2_p1 = p["pin"]
+      if R2_p1 == "1":
+        R2_p2 = "2"
+      elif R2_p1 == "2":
+        R2_p2 = "1"
+      else:
+        # this shouldn't happen...?
+        return False
+
+      resistor_with_resistor(nodes, R1_id, R1_p1, R1_p2, N_id, N_p1, N_p2, R2_id, R2_p1, R2_p2)
+      print "combined a resistor?"
+      return True
+
+    elif p["node"] != R1_id and nodes[p["node"]]["type"] == "spice":
+      R_id = R1_id
+      R_p2 = R1_p1
+      R_p1 = R1_p2
+      N_p2 = N_p1
+      N_p1 = i
+      S_id = p["node"]
+      S_p = p["pin"]
+
+      spice_with_resistor(nodes, S_id, S_p, N_id, N_p1, N_p2, R_id, R_p1, R_p2)
+      print "combined a resistor with a resistor lump?"
+      return True
 
 
 def resistor_with_resistor(nodes, R1_id, R1_p1, R1_p2, N_id, N_p1, N_p2, R2_id, R2_p1, R2_p2):
@@ -81,12 +114,45 @@ def resistor_with_resistor(nodes, R1_id, R1_p1, R1_p2, N_id, N_p1, N_p2, R2_id, 
   N["pins"][N_p1]["pin"] = "3"
 
 
+  S["spice-num-nodes"] = 3
   S["spice-circuit"] = "%s 1 3 %s\n%s 3 2 %s\n" % (R1["name"], R1["resistance"], R2["name"], R2["resistance"])
 
 
   del nodes[R1_id]
   del nodes[R2_id]
   if len(N["pins"]) == 1:
+    del S["pins"]["3"]
+    del nodes[N_id]
+
+
+def spice_with_resistor(nodes, S_id, S_p, N_id, N_p1, N_p2, R_id, R_p1, R_p2):
+  print "combining spice:"
+  print "  spice node %s, pin %s" % (S_id, S_p)
+  print "  net node %s, pin %s to %s" % (N_id, N_p1, N_p2)
+  print "  resistor node %s, pin %s to %s" % (R_id, R_p1, R_p2)
+  S = nodes[S_id]
+  R = nodes[R_id]
+  N = nodes[N_id]
+
+  del N["pins"][N_p2]
+
+  S["spice-num-nodes"] += 1
+  spice_node = str(S["spice-num-nodes"])
+
+  S["pins"][spice_node] = {}
+  S["pins"][spice_node]["node"] = R["pins"][R_p2]["node"]
+  S["pins"][spice_node]["pin"] = R["pins"][R_p2]["pin"]
+
+  node_right = nodes[R["pins"][R_p2]["node"]]
+  node_right_pin = R["pins"][R_p2]["pin"]
+  node_right["pins"][node_right_pin]["node"] = S_id
+  node_right["pins"][node_right_pin]["pin"] = spice_node
+
+  S["spice-circuit"] += "%s %s %s %s\n" % (R["name"], S_p, spice_node, R["resistance"])
+
+  del nodes[R_id]
+  if len(N["pins"]) == 1:
+    del S["pins"][S_p]
     del nodes[N_id]
 
 
