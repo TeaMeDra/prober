@@ -76,6 +76,7 @@ def resistor_with_resistor(nodes, R1_id, R1_p1, R1_p2, N_id, N_p1, N_p2, R2_id, 
   S["id"] = S_id
   S["pins"] = {}
   S["type"] = "spice"
+  S["name"] = S_id
 
 
   S["pins"]["1"] = {}
