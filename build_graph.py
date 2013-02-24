@@ -55,6 +55,7 @@ def build_graph(j):
     nodes[id]["id"] = id
     nodes[id]["pins"] = {}
     nodes[id]["type"] = "net"
+    nodes[id]["name"] = id
 
 
     # build up pin list for this net
