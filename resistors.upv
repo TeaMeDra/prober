@@ -1,0 +1,1463 @@
+{
+    "component_instances": [
+        {
+            "attributes": {
+                "refdes": "R2"
+            }, 
+            "footprint_attributes": [], 
+            "footprint_index": 0, 
+            "footprint_pos": {
+                "flip": false, 
+                "rotation": 0.0, 
+                "side": null, 
+                "x": 0, 
+                "y": 0
+            }, 
+            "gen_obj_attributes": [], 
+            "instance_id": "9ad1228fbd79720d", 
+            "library_id": "0000000000000003", 
+            "symbol_attributes": [
+                {
+                    "annotations": [
+                        {
+                            "flip": false, 
+                            "label": {
+                                "align": "left", 
+                                "baseline": "left", 
+                                "font_family": "sans-serif", 
+                                "font_size": 10, 
+                                "rotation": 0, 
+                                "styles": {}, 
+                                "text": "5k", 
+                                "type": "label", 
+                                "x": 0, 
+                                "y": 0
+                            }, 
+                            "layer": "annotations", 
+                            "rotation": 0.0, 
+                            "value": "5k", 
+                            "visible": "true", 
+                            "x": 0, 
+                            "y": -30
+                        }, 
+                        {
+                            "flip": false, 
+                            "label": {
+                                "align": "left", 
+                                "baseline": "left", 
+                                "font_family": "sans-serif", 
+                                "font_size": 10, 
+                                "rotation": 0, 
+                                "styles": {}, 
+                                "text": "R2", 
+                                "type": "label", 
+                                "x": 0, 
+                                "y": 0
+                            }, 
+                            "layer": "annotations", 
+                            "rotation": 0.0, 
+                            "value": "R2", 
+                            "visible": "true", 
+                            "x": 0, 
+                            "y": 0
+                        }
+                    ], 
+                    "flip": "false", 
+                    "rotation": 0.0, 
+                    "x": -390, 
+                    "y": 260
+                }
+            ], 
+            "symbol_index": 0
+        }, 
+        {
+            "attributes": {
+                "refdes": "R5"
+            }, 
+            "footprint_attributes": [], 
+            "footprint_index": 0, 
+            "footprint_pos": {
+                "flip": false, 
+                "rotation": 0.0, 
+                "side": null, 
+                "x": 0, 
+                "y": 0
+            }, 
+            "gen_obj_attributes": [], 
+            "instance_id": "01982df0bec52dfa", 
+            "library_id": "0000000000000003", 
+            "symbol_attributes": [
+                {
+                    "annotations": [
+                        {
+                            "flip": false, 
+                            "label": {
+                                "align": "left", 
+                                "baseline": "left", 
+                                "font_family": "sans-serif", 
+                                "font_size": 10, 
+                                "rotation": 0, 
+                                "styles": {}, 
+                                "text": "5k", 
+                                "type": "label", 
+                                "x": 0, 
+                                "y": 0
+                            }, 
+                            "layer": "annotations", 
+                            "rotation": 0.0, 
+                            "value": "5k", 
+                            "visible": "true", 
+                            "x": 0, 
+                            "y": -30
+                        }, 
+                        {
+                            "flip": false, 
+                            "label": {
+                                "align": "left", 
+                                "baseline": "left", 
+                                "font_family": "sans-serif", 
+                                "font_size": 10, 
+                                "rotation": 0, 
+                                "styles": {}, 
+                                "text": "R5", 
+                                "type": "label", 
+                                "x": 0, 
+                                "y": 0
+                            }, 
+                            "layer": "annotations", 
+                            "rotation": 0.0, 
+                            "value": "R5", 
+                            "visible": "true", 
+                            "x": 0, 
+                            "y": 0
+                        }
+                    ], 
+                    "flip": "false", 
+                    "rotation": 0.0, 
+                    "x": -380, 
+                    "y": 150
+                }
+            ], 
+            "symbol_index": 0
+        }, 
+        {
+            "attributes": {
+                "refdes": "R3"
+            }, 
+            "footprint_attributes": [], 
+            "footprint_index": 0, 
+            "footprint_pos": {
+                "flip": false, 
+                "rotation": 0.0, 
+                "side": null, 
+                "x": 0, 
+                "y": 0
+            }, 
+            "gen_obj_attributes": [], 
+            "instance_id": "c5fc421f01b5bca8", 
+            "library_id": "0000000000000003", 
+            "symbol_attributes": [
+                {
+                    "annotations": [
+                        {
+                            "flip": false, 
+                            "label": {
+                                "align": "left", 
+                                "baseline": "left", 
+                                "font_family": "sans-serif", 
+                                "font_size": 10, 
+                                "rotation": 0, 
+                                "styles": {}, 
+                                "text": "R3", 
+                                "type": "label", 
+                                "x": 0, 
+                                "y": 0
+                            }, 
+                            "layer": "annotations", 
+                            "rotation": 0.0, 
+                            "value": "R3", 
+                            "visible": "true", 
+                            "x": 0, 
+                            "y": 0
+                        }, 
+                        {
+                            "flip": false, 
+                            "label": {
+                                "align": "left", 
+                                "baseline": "left", 
+                                "font_family": "sans-serif", 
+                                "font_size": 10, 
+                                "rotation": 0, 
+                                "styles": {}, 
+                                "text": "5k", 
+                                "type": "label", 
+                                "x": 0, 
+                                "y": 0
+                            }, 
+                            "layer": "annotations", 
+                            "rotation": 0.0, 
+                            "value": "5k", 
+                            "visible": "true", 
+                            "x": 0, 
+                            "y": -30
+                        }
+                    ], 
+                    "flip": "false", 
+                    "rotation": 0.0, 
+                    "x": -260, 
+                    "y": 260
+                }
+            ], 
+            "symbol_index": 0
+        }, 
+        {
+            "attributes": {
+                "refdes": "R4"
+            }, 
+            "footprint_attributes": [], 
+            "footprint_index": 0, 
+            "footprint_pos": {
+                "flip": false, 
+                "rotation": 0.0, 
+                "side": null, 
+                "x": 0, 
+                "y": 0
+            }, 
+            "gen_obj_attributes": [], 
+            "instance_id": "f6501ebfa97b01bb", 
+            "library_id": "0000000000000003", 
+            "symbol_attributes": [
+                {
+                    "annotations": [
+                        {
+                            "flip": false, 
+                            "label": {
+                                "align": "left", 
+                                "baseline": "left", 
+                                "font_family": "sans-serif", 
+                                "font_size": 10, 
+                                "rotation": 0, 
+                                "styles": {}, 
+                                "text": "R4", 
+                                "type": "label", 
+                                "x": 0, 
+                                "y": 0
+                            }, 
+                            "layer": "annotations", 
+                            "rotation": 0.0, 
+                            "value": "R4", 
+                            "visible": "true", 
+                            "x": 0, 
+                            "y": 0
+                        }, 
+                        {
+                            "flip": false, 
+                            "label": {
+                                "align": "left", 
+                                "baseline": "left", 
+                                "font_family": "sans-serif", 
+                                "font_size": 10, 
+                                "rotation": 0, 
+                                "styles": {}, 
+                                "text": "5k", 
+                                "type": "label", 
+                                "x": 0, 
+                                "y": 0
+                            }, 
+                            "layer": "annotations", 
+                            "rotation": 0.0, 
+                            "value": "5k", 
+                            "visible": "true", 
+                            "x": 0, 
+                            "y": -30
+                        }
+                    ], 
+                    "flip": "false", 
+                    "rotation": 0.0, 
+                    "x": -260, 
+                    "y": 190
+                }
+            ], 
+            "symbol_index": 0
+        }, 
+        {
+            "attributes": {
+                "refdes": "R6"
+            }, 
+            "footprint_attributes": [], 
+            "footprint_index": 0, 
+            "footprint_pos": {
+                "flip": false, 
+                "rotation": 0.0, 
+                "side": null, 
+                "x": 0, 
+                "y": 0
+            }, 
+            "gen_obj_attributes": [], 
+            "instance_id": "151b437db6f73dca", 
+            "library_id": "0000000000000003", 
+            "symbol_attributes": [
+                {
+                    "annotations": [
+                        {
+                            "flip": false, 
+                            "label": {
+                                "align": "left", 
+                                "baseline": "left", 
+                                "font_family": "sans-serif", 
+                                "font_size": 10, 
+                                "rotation": 0, 
+                                "styles": {}, 
+                                "text": "R6", 
+                                "type": "label", 
+                                "x": 0, 
+                                "y": 0
+                            }, 
+                            "layer": "annotations", 
+                            "rotation": 0.0, 
+                            "value": "R6", 
+                            "visible": "true", 
+                            "x": 0, 
+                            "y": 0
+                        }, 
+                        {
+                            "flip": false, 
+                            "label": {
+                                "align": "left", 
+                                "baseline": "left", 
+                                "font_family": "sans-serif", 
+                                "font_size": 10, 
+                                "rotation": 0, 
+                                "styles": {}, 
+                                "text": "5k", 
+                                "type": "label", 
+                                "x": 0, 
+                                "y": 0
+                            }, 
+                            "layer": "annotations", 
+                            "rotation": 0.0, 
+                            "value": "5k", 
+                            "visible": "true", 
+                            "x": 0, 
+                            "y": -30
+                        }
+                    ], 
+                    "flip": "false", 
+                    "rotation": 0.0, 
+                    "x": -380, 
+                    "y": 100
+                }
+            ], 
+            "symbol_index": 0
+        }, 
+        {
+            "attributes": {
+                "_name": "Test Point", 
+                "refdes": "?2"
+            }, 
+            "footprint_attributes": [], 
+            "footprint_index": 0, 
+            "footprint_pos": {
+                "flip": false, 
+                "rotation": 0.0, 
+                "side": null, 
+                "x": 0, 
+                "y": 0
+            }, 
+            "gen_obj_attributes": [], 
+            "instance_id": "ced6a7855d0c8b23", 
+            "library_id": "0000000000000001", 
+            "symbol_attributes": [
+                {
+                    "annotations": [
+                        {
+                            "flip": false, 
+                            "label": {
+                                "align": "center", 
+                                "baseline": "center", 
+                                "font_family": "sans-serif", 
+                                "font_size": 10, 
+                                "rotation": 0, 
+                                "styles": {}, 
+                                "text": "Test Point", 
+                                "type": "label", 
+                                "x": 0, 
+                                "y": 0
+                            }, 
+                            "layer": "annotations", 
+                            "rotation": 0.0, 
+                            "value": "Test Point", 
+                            "visible": "true", 
+                            "x": 0, 
+                            "y": 10
+                        }
+                    ], 
+                    "flip": "false", 
+                    "rotation": 0.0, 
+                    "x": -150, 
+                    "y": 270
+                }
+            ], 
+            "symbol_index": 6
+        }, 
+        {
+            "attributes": {
+                "_name": "Test Point", 
+                "refdes": "?3"
+            }, 
+            "footprint_attributes": [], 
+            "footprint_index": 0, 
+            "footprint_pos": {
+                "flip": false, 
+                "rotation": 0.0, 
+                "side": null, 
+                "x": 0, 
+                "y": 0
+            }, 
+            "gen_obj_attributes": [], 
+            "instance_id": "3628160dfe9da06f", 
+            "library_id": "0000000000000001", 
+            "symbol_attributes": [
+                {
+                    "annotations": [
+                        {
+                            "flip": false, 
+                            "label": {
+                                "align": "center", 
+                                "baseline": "center", 
+                                "font_family": "sans-serif", 
+                                "font_size": 10, 
+                                "rotation": 0, 
+                                "styles": {}, 
+                                "text": "Test Point", 
+                                "type": "label", 
+                                "x": 0, 
+                                "y": 0
+                            }, 
+                            "layer": "annotations", 
+                            "rotation": 0.0, 
+                            "value": "Test Point", 
+                            "visible": "true", 
+                            "x": 0, 
+                            "y": 10
+                        }
+                    ], 
+                    "flip": "false", 
+                    "rotation": 0.0, 
+                    "x": -150, 
+                    "y": 200
+                }
+            ], 
+            "symbol_index": 6
+        }, 
+        {
+            "attributes": {
+                "_name": "Test Point", 
+                "refdes": "?1"
+            }, 
+            "footprint_attributes": [], 
+            "footprint_index": 0, 
+            "footprint_pos": {
+                "flip": false, 
+                "rotation": 0.0, 
+                "side": null, 
+                "x": 0, 
+                "y": 0
+            }, 
+            "gen_obj_attributes": [], 
+            "instance_id": "7e69f5185492b4b0", 
+            "library_id": "0000000000000001", 
+            "symbol_attributes": [
+                {
+                    "annotations": [
+                        {
+                            "flip": false, 
+                            "label": {
+                                "align": "center", 
+                                "baseline": "center", 
+                                "font_family": "sans-serif", 
+                                "font_size": 10, 
+                                "rotation": 0, 
+                                "styles": {}, 
+                                "text": "Test Point", 
+                                "type": "label", 
+                                "x": 0, 
+                                "y": 0
+                            }, 
+                            "layer": "annotations", 
+                            "rotation": 0.0, 
+                            "value": "Test Point", 
+                            "visible": "true", 
+                            "x": 0, 
+                            "y": 10
+                        }
+                    ], 
+                    "flip": "false", 
+                    "rotation": 0.0, 
+                    "x": -450, 
+                    "y": 270
+                }
+            ], 
+            "symbol_index": 6
+        }
+    ], 
+    "components": {
+        "0000000000000001": {
+            "attributes": {
+                "_num_pins": "1", 
+                "_octopart_part_number": "", 
+                "_symbol_0_0": "Flag 1", 
+                "_symbol_1_0": "Flag 2", 
+                "_symbol_2_0": "GND", 
+                "_symbol_3_0": "VCC", 
+                "_type": "integrated circuit"
+            }, 
+            "footprints": [], 
+            "name": "VCC", 
+            "symbols": [
+                {
+                    "bodies": [
+                        {
+                            "pins": [
+                                {
+                                    "attributes": {}, 
+                                    "p1": {
+                                        "x": 10, 
+                                        "y": 0
+                                    }, 
+                                    "p2": {
+                                        "x": 10, 
+                                        "y": -20
+                                    }, 
+                                    "pin_number": "1", 
+                                    "styles": {}
+                                }
+                            ], 
+                            "shapes": [
+                                {
+                                    "p1": {
+                                        "x": 10, 
+                                        "y": 0
+                                    }, 
+                                    "p2": {
+                                        "x": 3, 
+                                        "y": -7
+                                    }, 
+                                    "styles": {}, 
+                                    "type": "line"
+                                }, 
+                                {
+                                    "p1": {
+                                        "x": 10, 
+                                        "y": 0
+                                    }, 
+                                    "p2": {
+                                        "x": 17, 
+                                        "y": -7
+                                    }, 
+                                    "styles": {}, 
+                                    "type": "line"
+                                }
+                            ]
+                        }
+                    ]
+                }, 
+                {
+                    "bodies": [
+                        {
+                            "pins": [
+                                {
+                                    "attributes": {}, 
+                                    "p1": {
+                                        "x": 10, 
+                                        "y": -11
+                                    }, 
+                                    "p2": {
+                                        "x": 10, 
+                                        "y": -30
+                                    }, 
+                                    "pin_number": "1", 
+                                    "styles": {}
+                                }
+                            ], 
+                            "shapes": [
+                                {
+                                    "p1": {
+                                        "x": 10, 
+                                        "y": 0
+                                    }, 
+                                    "p2": {
+                                        "x": 3, 
+                                        "y": -7
+                                    }, 
+                                    "styles": {}, 
+                                    "type": "line"
+                                }, 
+                                {
+                                    "p1": {
+                                        "x": 10, 
+                                        "y": 0
+                                    }, 
+                                    "p2": {
+                                        "x": 17, 
+                                        "y": -7
+                                    }, 
+                                    "styles": {}, 
+                                    "type": "line"
+                                }, 
+                                {
+                                    "p1": {
+                                        "x": 10, 
+                                        "y": -5
+                                    }, 
+                                    "p2": {
+                                        "x": 3, 
+                                        "y": -12
+                                    }, 
+                                    "styles": {}, 
+                                    "type": "line"
+                                }, 
+                                {
+                                    "p1": {
+                                        "x": 10, 
+                                        "y": -5
+                                    }, 
+                                    "p2": {
+                                        "x": 17, 
+                                        "y": -12
+                                    }, 
+                                    "styles": {}, 
+                                    "type": "line"
+                                }, 
+                                {
+                                    "control1": {
+                                        "x": 9, 
+                                        "y": -10
+                                    }, 
+                                    "control2": {
+                                        "x": 11, 
+                                        "y": -10
+                                    }, 
+                                    "p1": {
+                                        "x": 3, 
+                                        "y": -12
+                                    }, 
+                                    "p2": {
+                                        "x": 17, 
+                                        "y": -12
+                                    }, 
+                                    "styles": {}, 
+                                    "type": "bezier"
+                                }
+                            ]
+                        }
+                    ]
+                }, 
+                {
+                    "bodies": [
+                        {
+                            "pins": [
+                                {
+                                    "attributes": {}, 
+                                    "p1": {
+                                        "x": 10, 
+                                        "y": -10
+                                    }, 
+                                    "p2": {
+                                        "x": 10, 
+                                        "y": 0
+                                    }, 
+                                    "pin_number": "1", 
+                                    "styles": {}
+                                }
+                            ], 
+                            "shapes": [
+                                {
+                                    "p1": {
+                                        "x": 0, 
+                                        "y": -10
+                                    }, 
+                                    "p2": {
+                                        "x": 20, 
+                                        "y": -10
+                                    }, 
+                                    "styles": {}, 
+                                    "type": "line"
+                                }, 
+                                {
+                                    "p1": {
+                                        "x": 3, 
+                                        "y": -15
+                                    }, 
+                                    "p2": {
+                                        "x": 17, 
+                                        "y": -15
+                                    }, 
+                                    "styles": {}, 
+                                    "type": "line"
+                                }, 
+                                {
+                                    "p1": {
+                                        "x": 6, 
+                                        "y": -20
+                                    }, 
+                                    "p2": {
+                                        "x": 14, 
+                                        "y": -20
+                                    }, 
+                                    "styles": {}, 
+                                    "type": "line"
+                                }
+                            ]
+                        }
+                    ]
+                }, 
+                {
+                    "bodies": [
+                        {
+                            "pins": [
+                                {
+                                    "attributes": {}, 
+                                    "p1": {
+                                        "x": 10, 
+                                        "y": 0
+                                    }, 
+                                    "p2": {
+                                        "x": 10, 
+                                        "y": -10
+                                    }, 
+                                    "pin_number": "1", 
+                                    "styles": {}
+                                }
+                            ], 
+                            "shapes": [
+                                {
+                                    "p1": {
+                                        "x": 0, 
+                                        "y": 0
+                                    }, 
+                                    "p2": {
+                                        "x": 20, 
+                                        "y": 0
+                                    }, 
+                                    "styles": {}, 
+                                    "type": "line"
+                                }
+                            ]
+                        }
+                    ]
+                }, 
+                {
+                    "bodies": [
+                        {
+                            "pins": [
+                                {
+                                    "attributes": {}, 
+                                    "p1": {
+                                        "x": 10, 
+                                        "y": 0
+                                    }, 
+                                    "p2": {
+                                        "x": 10, 
+                                        "y": -20
+                                    }, 
+                                    "pin_number": "1", 
+                                    "styles": {}
+                                }
+                            ], 
+                            "shapes": [
+                                {
+                                    "p1": {
+                                        "x": 10, 
+                                        "y": 0
+                                    }, 
+                                    "p2": {
+                                        "x": 3, 
+                                        "y": 7
+                                    }, 
+                                    "styles": {}, 
+                                    "type": "line"
+                                }, 
+                                {
+                                    "p1": {
+                                        "x": 10, 
+                                        "y": 0
+                                    }, 
+                                    "p2": {
+                                        "x": 17, 
+                                        "y": 7
+                                    }, 
+                                    "styles": {}, 
+                                    "type": "line"
+                                }
+                            ]
+                        }
+                    ]
+                }, 
+                {
+                    "bodies": [
+                        {
+                            "pins": [
+                                {
+                                    "attributes": {}, 
+                                    "p1": {
+                                        "x": 10, 
+                                        "y": -10
+                                    }, 
+                                    "p2": {
+                                        "x": 10, 
+                                        "y": 0
+                                    }, 
+                                    "pin_number": "1", 
+                                    "styles": {}
+                                }
+                            ], 
+                            "shapes": [
+                                {
+                                    "p1": {
+                                        "x": 0, 
+                                        "y": -10
+                                    }, 
+                                    "p2": {
+                                        "x": 20, 
+                                        "y": -10
+                                    }, 
+                                    "styles": {}, 
+                                    "type": "line"
+                                }, 
+                                {
+                                    "p1": {
+                                        "x": 0, 
+                                        "y": -10
+                                    }, 
+                                    "p2": {
+                                        "x": -5, 
+                                        "y": -20
+                                    }, 
+                                    "styles": {}, 
+                                    "type": "line"
+                                }, 
+                                {
+                                    "p1": {
+                                        "x": 10, 
+                                        "y": -10
+                                    }, 
+                                    "p2": {
+                                        "x": 5, 
+                                        "y": -20
+                                    }, 
+                                    "styles": {}, 
+                                    "type": "line"
+                                }, 
+                                {
+                                    "p1": {
+                                        "x": 20, 
+                                        "y": -10
+                                    }, 
+                                    "p2": {
+                                        "x": 15, 
+                                        "y": -20
+                                    }, 
+                                    "styles": {}, 
+                                    "type": "line"
+                                }
+                            ]
+                        }
+                    ]
+                }, 
+                {
+                    "bodies": [
+                        {
+                            "pins": [
+                                {
+                                    "attributes": {}, 
+                                    "p1": {
+                                        "x": 10, 
+                                        "y": -6
+                                    }, 
+                                    "p2": {
+                                        "x": 10, 
+                                        "y": -20
+                                    }, 
+                                    "pin_number": "1", 
+                                    "styles": {}
+                                }
+                            ], 
+                            "shapes": [
+                                {
+                                    "radius": 3, 
+                                    "styles": {}, 
+                                    "type": "circle", 
+                                    "x": 10, 
+                                    "y": -3
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }, 
+        "0000000000000003": {
+            "attributes": {
+                "_datasheet": "", 
+                "_lead_free": "???", 
+                "_manufacturer": "Generic", 
+                "_num_pins": "2", 
+                "_octopart_part_number": "", 
+                "_package": "", 
+                "_part_number": "Resistor", 
+                "_prefix": "R", 
+                "_resistance": "5k", 
+                "_rohs": "???", 
+                "_symbol_0_0": "Resistor", 
+                "_type": "resistor"
+            }, 
+            "footprints": [], 
+            "name": "Generic Resistor", 
+            "symbols": [
+                {
+                    "bodies": [
+                        {
+                            "pins": [
+                                {
+                                    "attributes": {}, 
+                                    "p1": {
+                                        "x": 10, 
+                                        "y": -10
+                                    }, 
+                                    "p2": {
+                                        "x": 0, 
+                                        "y": -10
+                                    }, 
+                                    "pin_number": "1", 
+                                    "styles": {}
+                                }, 
+                                {
+                                    "attributes": {}, 
+                                    "p1": {
+                                        "x": 40, 
+                                        "y": -10
+                                    }, 
+                                    "p2": {
+                                        "x": 50, 
+                                        "y": -10
+                                    }, 
+                                    "pin_number": "2", 
+                                    "styles": {}
+                                }
+                            ], 
+                            "shapes": [
+                                {
+                                    "p1": {
+                                        "x": 10, 
+                                        "y": -10
+                                    }, 
+                                    "p2": {
+                                        "x": 13, 
+                                        "y": -5
+                                    }, 
+                                    "styles": {}, 
+                                    "type": "line"
+                                }, 
+                                {
+                                    "p1": {
+                                        "x": 13, 
+                                        "y": -5
+                                    }, 
+                                    "p2": {
+                                        "x": 18, 
+                                        "y": -15
+                                    }, 
+                                    "styles": {}, 
+                                    "type": "line"
+                                }, 
+                                {
+                                    "p1": {
+                                        "x": 18, 
+                                        "y": -15
+                                    }, 
+                                    "p2": {
+                                        "x": 23, 
+                                        "y": -5
+                                    }, 
+                                    "styles": {}, 
+                                    "type": "line"
+                                }, 
+                                {
+                                    "p1": {
+                                        "x": 23, 
+                                        "y": -5
+                                    }, 
+                                    "p2": {
+                                        "x": 28, 
+                                        "y": -15
+                                    }, 
+                                    "styles": {}, 
+                                    "type": "line"
+                                }, 
+                                {
+                                    "p1": {
+                                        "x": 28, 
+                                        "y": -15
+                                    }, 
+                                    "p2": {
+                                        "x": 33, 
+                                        "y": -5
+                                    }, 
+                                    "styles": {}, 
+                                    "type": "line"
+                                }, 
+                                {
+                                    "p1": {
+                                        "x": 33, 
+                                        "y": -5
+                                    }, 
+                                    "p2": {
+                                        "x": 38, 
+                                        "y": -15
+                                    }, 
+                                    "styles": {}, 
+                                    "type": "line"
+                                }, 
+                                {
+                                    "p1": {
+                                        "x": 38, 
+                                        "y": -15
+                                    }, 
+                                    "p2": {
+                                        "x": 40, 
+                                        "y": -10
+                                    }, 
+                                    "styles": {}, 
+                                    "type": "line"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    }, 
+    "design_attributes": {
+        "annotations": [], 
+        "attributes": {
+            "_capacitor_counter": "2", 
+            "_inductor_counter": "1", 
+            "_integrated circuit_counter": "3", 
+            "_resistor_counter": "6"
+        }, 
+        "metadata": {
+            "attached_urls": [], 
+            "description": "", 
+            "design_id": "05ccc486bb229301", 
+            "license": "Open Web Foundation", 
+            "name": "passive test", 
+            "owner": "dbp", 
+            "slug": "passive-test", 
+            "updated_timestamp": 1361663147
+        }
+    }, 
+    "nets": [
+        {
+            "annotations": [], 
+            "attributes": {}, 
+            "net_id": "3d69c1f7f2f7362c", 
+            "points": [
+                {
+                    "connected_components": [], 
+                    "connected_points": [
+                        "6c8228fde9c2148a", 
+                        "f1e831ffa9f9b2a9"
+                    ], 
+                    "point_id": "0b6182ee74a2587e", 
+                    "x": -310, 
+                    "y": 310
+                }, 
+                {
+                    "connected_components": [
+                        {
+                            "instance_id": "c5fc421f01b5bca8", 
+                            "pin_number": "1"
+                        }
+                    ], 
+                    "connected_points": [
+                        "6c8228fde9c2148a", 
+                        "c5adf7c6f9cb0065"
+                    ], 
+                    "point_id": "14b0215a67dcee6a", 
+                    "x": -260, 
+                    "y": 250
+                }, 
+                {
+                    "connected_components": [], 
+                    "connected_points": [
+                        "689bdd36b741eb72", 
+                        "bfb713d9696c8f43"
+                    ], 
+                    "point_id": "249d5c6db109bcc2", 
+                    "x": -430, 
+                    "y": 90
+                }, 
+                {
+                    "connected_components": [
+                        {
+                            "instance_id": "151b437db6f73dca", 
+                            "pin_number": "1"
+                        }
+                    ], 
+                    "connected_points": [
+                        "249d5c6db109bcc2"
+                    ], 
+                    "point_id": "689bdd36b741eb72", 
+                    "x": -380, 
+                    "y": 90
+                }, 
+                {
+                    "connected_components": [], 
+                    "connected_points": [
+                        "0b6182ee74a2587e", 
+                        "14b0215a67dcee6a"
+                    ], 
+                    "point_id": "6c8228fde9c2148a", 
+                    "x": -260, 
+                    "y": 310
+                }, 
+                {
+                    "connected_components": [], 
+                    "connected_points": [
+                        "bfb713d9696c8f43", 
+                        "c4ffb66d546ff9d2"
+                    ], 
+                    "point_id": "78c871ab05fdd02f", 
+                    "x": -310, 
+                    "y": 110
+                }, 
+                {
+                    "connected_components": [], 
+                    "connected_points": [
+                        "249d5c6db109bcc2", 
+                        "78c871ab05fdd02f"
+                    ], 
+                    "point_id": "bfb713d9696c8f43", 
+                    "x": -430, 
+                    "y": 110
+                }, 
+                {
+                    "connected_components": [], 
+                    "connected_points": [
+                        "78c871ab05fdd02f", 
+                        "dac1bf60ac8f0228", 
+                        "f1e831ffa9f9b2a9"
+                    ], 
+                    "point_id": "c4ffb66d546ff9d2", 
+                    "x": -310, 
+                    "y": 140
+                }, 
+                {
+                    "connected_components": [
+                        {
+                            "instance_id": "9ad1228fbd79720d", 
+                            "pin_number": "2"
+                        }
+                    ], 
+                    "connected_points": [
+                        "14b0215a67dcee6a"
+                    ], 
+                    "point_id": "c5adf7c6f9cb0065", 
+                    "x": -340, 
+                    "y": 250
+                }, 
+                {
+                    "connected_components": [
+                        {
+                            "instance_id": "01982df0bec52dfa", 
+                            "pin_number": "2"
+                        }
+                    ], 
+                    "connected_points": [
+                        "c4ffb66d546ff9d2"
+                    ], 
+                    "point_id": "dac1bf60ac8f0228", 
+                    "x": -330, 
+                    "y": 140
+                }, 
+                {
+                    "connected_components": [
+                        {
+                            "instance_id": "f6501ebfa97b01bb", 
+                            "pin_number": "1"
+                        }
+                    ], 
+                    "connected_points": [
+                        "f1e831ffa9f9b2a9"
+                    ], 
+                    "point_id": "ef3866a3ca40d558", 
+                    "x": -260, 
+                    "y": 180
+                }, 
+                {
+                    "connected_components": [], 
+                    "connected_points": [
+                        "0b6182ee74a2587e", 
+                        "c4ffb66d546ff9d2", 
+                        "ef3866a3ca40d558"
+                    ], 
+                    "point_id": "f1e831ffa9f9b2a9", 
+                    "x": -310, 
+                    "y": 180
+                }
+            ]
+        }, 
+        {
+            "annotations": [], 
+            "attributes": {}, 
+            "net_id": "377c921bd3f54d2d", 
+            "points": [
+                {
+                    "connected_components": [
+                        {
+                            "instance_id": "01982df0bec52dfa", 
+                            "pin_number": "1"
+                        }
+                    ], 
+                    "connected_points": [
+                        "35ab5130f154568f"
+                    ], 
+                    "point_id": "2b6334747decfcb7", 
+                    "x": -380, 
+                    "y": 140
+                }, 
+                {
+                    "connected_components": [], 
+                    "connected_points": [
+                        "2b6334747decfcb7", 
+                        "816d680f5eb71315"
+                    ], 
+                    "point_id": "35ab5130f154568f", 
+                    "x": -420, 
+                    "y": 140
+                }, 
+                {
+                    "connected_components": [], 
+                    "connected_points": [
+                        "816d680f5eb71315", 
+                        "ac4081067c86292e"
+                    ], 
+                    "point_id": "479411ee798b4a49", 
+                    "x": -440, 
+                    "y": 200
+                }, 
+                {
+                    "connected_components": [], 
+                    "connected_points": [
+                        "35ab5130f154568f", 
+                        "479411ee798b4a49", 
+                        "97af02a796b48377"
+                    ], 
+                    "point_id": "816d680f5eb71315", 
+                    "x": -420, 
+                    "y": 200
+                }, 
+                {
+                    "connected_components": [], 
+                    "connected_points": [
+                        "816d680f5eb71315", 
+                        "d4a20d1f92431410"
+                    ], 
+                    "point_id": "97af02a796b48377", 
+                    "x": -420, 
+                    "y": 250
+                }, 
+                {
+                    "connected_components": [
+                        {
+                            "instance_id": "7e69f5185492b4b0", 
+                            "pin_number": "1"
+                        }
+                    ], 
+                    "connected_points": [
+                        "479411ee798b4a49"
+                    ], 
+                    "point_id": "ac4081067c86292e", 
+                    "x": -440, 
+                    "y": 250
+                }, 
+                {
+                    "connected_components": [
+                        {
+                            "instance_id": "9ad1228fbd79720d", 
+                            "pin_number": "1"
+                        }
+                    ], 
+                    "connected_points": [
+                        "97af02a796b48377"
+                    ], 
+                    "point_id": "d4a20d1f92431410", 
+                    "x": -390, 
+                    "y": 250
+                }
+            ]
+        }, 
+        {
+            "annotations": [], 
+            "attributes": {}, 
+            "net_id": "bd26ba5b7d794dc4", 
+            "points": [
+                {
+                    "connected_components": [], 
+                    "connected_points": [
+                        "3f392c9d47966083", 
+                        "9b83f1ebddb8cef3"
+                    ], 
+                    "point_id": "31a1c902559ceff6", 
+                    "x": -180, 
+                    "y": 90
+                }, 
+                {
+                    "connected_components": [], 
+                    "connected_points": [
+                        "31a1c902559ceff6", 
+                        "73da01ac22c462e4", 
+                        "79dbc7e4b7f0ecc4"
+                    ], 
+                    "point_id": "3f392c9d47966083", 
+                    "x": -180, 
+                    "y": 130
+                }, 
+                {
+                    "connected_components": [], 
+                    "connected_points": [
+                        "3f392c9d47966083", 
+                        "a38ed826ee9f884c"
+                    ], 
+                    "point_id": "73da01ac22c462e4", 
+                    "x": -180, 
+                    "y": 180
+                }, 
+                {
+                    "connected_components": [], 
+                    "connected_points": [
+                        "3f392c9d47966083", 
+                        "81b2b041c9600a2e"
+                    ], 
+                    "point_id": "79dbc7e4b7f0ecc4", 
+                    "x": -140, 
+                    "y": 130
+                }, 
+                {
+                    "connected_components": [
+                        {
+                            "instance_id": "3628160dfe9da06f", 
+                            "pin_number": "1"
+                        }
+                    ], 
+                    "connected_points": [
+                        "79dbc7e4b7f0ecc4"
+                    ], 
+                    "point_id": "81b2b041c9600a2e", 
+                    "x": -140, 
+                    "y": 180
+                }, 
+                {
+                    "connected_components": [
+                        {
+                            "instance_id": "151b437db6f73dca", 
+                            "pin_number": "2"
+                        }
+                    ], 
+                    "connected_points": [
+                        "31a1c902559ceff6"
+                    ], 
+                    "point_id": "9b83f1ebddb8cef3", 
+                    "x": -330, 
+                    "y": 90
+                }, 
+                {
+                    "connected_components": [
+                        {
+                            "instance_id": "f6501ebfa97b01bb", 
+                            "pin_number": "2"
+                        }
+                    ], 
+                    "connected_points": [
+                        "73da01ac22c462e4"
+                    ], 
+                    "point_id": "a38ed826ee9f884c", 
+                    "x": -210, 
+                    "y": 180
+                }
+            ]
+        }, 
+        {
+            "annotations": [], 
+            "attributes": {}, 
+            "net_id": "d2b51b6ab7287e7d", 
+            "points": [
+                {
+                    "connected_components": [], 
+                    "connected_points": [
+                        "8684f6b891be5c01", 
+                        "ce21fd579f2503c7"
+                    ], 
+                    "point_id": "4437e935def17f00", 
+                    "x": -180, 
+                    "y": 210
+                }, 
+                {
+                    "connected_components": [
+                        {
+                            "instance_id": "ced6a7855d0c8b23", 
+                            "pin_number": "1"
+                        }
+                    ], 
+                    "connected_points": [
+                        "ce21fd579f2503c7"
+                    ], 
+                    "point_id": "746880fe8eb41022", 
+                    "x": -140, 
+                    "y": 250
+                }, 
+                {
+                    "connected_components": [], 
+                    "connected_points": [
+                        "4437e935def17f00", 
+                        "aa4f794ee9f64e99"
+                    ], 
+                    "point_id": "8684f6b891be5c01", 
+                    "x": -180, 
+                    "y": 250
+                }, 
+                {
+                    "connected_components": [
+                        {
+                            "instance_id": "c5fc421f01b5bca8", 
+                            "pin_number": "2"
+                        }
+                    ], 
+                    "connected_points": [
+                        "8684f6b891be5c01"
+                    ], 
+                    "point_id": "aa4f794ee9f64e99", 
+                    "x": -210, 
+                    "y": 250
+                }, 
+                {
+                    "connected_components": [], 
+                    "connected_points": [
+                        "4437e935def17f00", 
+                        "746880fe8eb41022"
+                    ], 
+                    "point_id": "ce21fd579f2503c7", 
+                    "x": -140, 
+                    "y": 210
+                }
+            ]
+        }
+    ], 
+    "pins": [], 
+    "shapes": [], 
+    "version": {
+        "exporter": "Upverter", 
+        "file_version": "0.1.0"
+    }
+}

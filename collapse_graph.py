@@ -1,7 +1,5 @@
 def collapse_graph(nodes):
-  print "collapse_graph()..."
   for id in nodes:
-    print "  on node %s" % id
     node = nodes[id]
     if node["type"] == "passive" and node["type-passive"] == "resistor":
       if nodes[node["pins"]["1"]["node"]]["type"] == "net":
@@ -35,9 +33,7 @@ def collapse_graph(nodes):
 
 
 def collapse_graph_net(nodes, R1_id, R1_p1, R1_p2, N_id, N_p1):
-  print "  on net %s" % N_id
   for i, p in nodes[N_id]["pins"].items():
-    print "  scanning.. node %s, type %s" % (p["node"], nodes[p["node"]]["type"])
     if p["node"] != R1_id and nodes[p["node"]]["type"] == "passive" and nodes[p["node"]]["type-passive"] == "resistor":
       R2_id = p["node"]
       R2 = nodes[p["node"]]
@@ -52,7 +48,6 @@ def collapse_graph_net(nodes, R1_id, R1_p1, R1_p2, N_id, N_p1):
         return False
 
       resistor_with_resistor(nodes, R1_id, R1_p1, R1_p2, N_id, N_p1, N_p2, R2_id, R2_p1, R2_p2)
-      print "combined a resistor?"
       return True
 
     elif p["node"] != R1_id and nodes[p["node"]]["type"] == "spice":
@@ -65,7 +60,6 @@ def collapse_graph_net(nodes, R1_id, R1_p1, R1_p2, N_id, N_p1):
       S_p = p["pin"]
 
       spice_with_resistor(nodes, S_id, S_p, N_id, N_p1, N_p2, R_id, R_p1, R_p2)
-      print "combined a resistor with a resistor lump?"
       return True
 
 
@@ -126,10 +120,6 @@ def resistor_with_resistor(nodes, R1_id, R1_p1, R1_p2, N_id, N_p1, N_p2, R2_id, 
 
 
 def spice_with_resistor(nodes, S_id, S_p, N_id, N_p1, N_p2, R_id, R_p1, R_p2):
-  print "combining spice:"
-  print "  spice node %s, pin %s" % (S_id, S_p)
-  print "  net node %s, pin %s to %s" % (N_id, N_p1, N_p2)
-  print "  resistor node %s, pin %s to %s" % (R_id, R_p1, R_p2)
   S = nodes[S_id]
   R = nodes[R_id]
   N = nodes[N_id]
